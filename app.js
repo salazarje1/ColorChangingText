@@ -6,7 +6,7 @@ function randomRGB(){
     return `rgb(${r}, ${g}, ${b})`
 }
 
-const letters = document.guerySelectorAll(".letter"); 
+const letters = document.querySelectorAll(".letter"); 
 const intervalId = setInterval(function() {
     for (let letter of letters){
         letter.style.color = randomRGB(); 
